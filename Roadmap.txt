@@ -1,0 +1,251 @@
+1️⃣ PHASE 1 — DART FOUNDATION (2–4 weeks)
+1. Learn Dart Basics
+
+Variables and Data Types (int, double, String, bool, List, Map)
+
+Operators (arithmetic, logical, comparison, conditional)
+
+Control Flow (if, else, for, while, switch)
+
+Functions and Arrow Functions
+
+Null Safety (?, !, ??, late)
+
+Collections (List, Set, Map, Iterable)
+
+Higher-Order Functions (map, forEach, where, etc.)
+
+2. Object-Oriented Programming
+
+Classes and Objects
+
+Constructors (default, named, factory)
+
+Inheritance, Mixins, Abstract classes
+
+Getters and Setters
+
+Static methods and variables
+
+3. Advanced Dart Features
+
+Futures and Async/Await
+
+Streams (single-subscription and broadcast)
+
+Exception Handling (try-catch-finally)
+
+Extensions and Generics
+
+Enums
+
+Type Inference
+
+Records and Pattern Matching (Dart 3+)
+
+Packages and Pubspec.yaml
+
+4. Mini Practice Projects
+
+CLI To-Do App
+
+Student Grade Calculator (OOP)
+
+API Fetch CLI using http
+
+Countdown Timer using async/await
+
+2️⃣ PHASE 2 — DART ECOSYSTEM & TOOLS (1 week)
+
+Install Dart SDK
+
+Explore DartPad (online playground)
+
+Learn pubspec.yaml structure
+
+Use CLI commands (dart run, dart analyze, dart test)
+
+Learn file/folder organization
+
+Create your own Dart package
+
+3️⃣ PHASE 3 — FLUTTER FUNDAMENTALS (3–5 weeks)
+1. Core Flutter Concepts
+
+Understand Flutter architecture (Framework + Engine + Embedder)
+
+Learn Widgets: Stateless vs Stateful
+
+Understand BuildContext & Widget Tree
+
+Learn Hot Reload vs Hot Restart
+
+Use Layout Widgets: Column, Row, Stack, Container
+
+Handle Navigation (Navigator, Routes)
+
+Manage Assets (images, fonts, JSON)
+
+Understand MaterialApp and CupertinoApp
+
+2. Basic State Management
+
+Use setState()
+
+Learn InheritedWidget basics
+
+Learn Provider for state management
+
+3. UI Design Widgets
+
+Text, Image, Icon widgets
+
+Padding, SizedBox, Margin, and Container
+
+Buttons, Cards, ListView, GridView
+
+Forms and Input fields (TextField, Form)
+
+AppBar, Snackbars, Dialogs, BottomNavigationBar
+
+4. Mini Flutter Projects
+
+Hello Flutter App
+
+Counter App (with setState())
+
+Login Form UI
+
+Weather App (with OpenWeather API)
+
+CRUD App with local DB (Sqflite/Drift)
+
+4️⃣ PHASE 4 — FLUTTER INTERMEDIATE (1–2 months)
+1. Data Handling
+
+Parse JSON (dart:convert)
+
+Use Local Storage (shared_preferences)
+
+SQLite/Drift databases
+
+REST API calls using http or dio
+
+Handle errors and loading states
+
+2. Advanced UI & Navigation
+
+Create custom reusable widgets
+
+Add Drawer, Tabs, BottomSheets
+
+Implement responsive layouts (MediaQuery, LayoutBuilder)
+
+Add animations (implicit & explicit)
+
+Use GoRouter or AutoRoute
+
+3. Intermediate State Management
+
+Learn Riverpod, BLoC, or Cubit
+
+Understand Streams deeply
+
+Compare Provider vs Riverpod
+
+4. Intermediate Projects
+
+Note-taking app (local DB)
+
+Movie/Book listing app (REST API)
+
+Multi-screen app with routes
+
+5️⃣ PHASE 5 — FLUTTER ADVANCED (2–3 months)
+1. Deep Flutter Concepts
+
+Dependency Injection
+
+Unit, Widget, and Integration Testing
+
+Flutter Hooks
+
+Build Flavors (dev, staging, prod)
+
+App Theming (Dark/Light)
+
+Firebase Integration (Auth, Firestore, Storage)
+
+Push Notifications
+
+Offline-first Architecture
+
+2. Performance Optimization
+
+Use const widgets wisely
+
+Reduce unnecessary rebuilds
+
+Use Isolates for heavy computations
+
+Profile and debug with DevTools
+
+3. Advanced Projects
+
+Chat App using Firebase
+
+E-Commerce App (cart + checkout)
+
+Social Feed or Blog App
+
+6️⃣ PHASE 6 — DEPLOYMENT & ECOSYSTEM (1 month)
+
+Build APK/AAB for Android
+
+Build for iOS
+
+Build for Web
+
+Build for Windows/macOS/Linux
+
+Use CI/CD (GitHub Actions or Codemagic)
+
+Firebase App Distribution
+
+Versioning & app signing
+
+7️⃣ PHASE 7 — FLUTTER MASTER (Continuous Learning)
+
+Flutter for Web
+
+Flutter for Desktop
+
+Integrate with Supabase, Appwrite, Hasura
+
+REST + GraphQL integration
+
+Learn Clean Architecture / MVVM pattern
+
+Portfolio-Level Projects
+
+Hotel Booking App (like your capstone)
+
+QR Attendance System
+
+Portfolio App with animation
+
+Chat or Notification App
+
+Social Media App Clone
+
+Flutter Game (bonus challenge)
+
+⏰ Learning Timeline Summary
+Phase	Focus	Duration
+1️⃣	Dart Fundamentals	2–4 weeks
+2️⃣	Dart Tools & Packages	1 week
+3️⃣	Flutter Basics	3–5 weeks
+4️⃣	Intermediate Flutter	1–2 months
+5️⃣	Advanced Flutter	2–3 months
+6️⃣	Deployment	1 month
+7️⃣	Mastery Projects	Continuous
