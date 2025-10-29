@@ -2,12 +2,18 @@
 import "DataStructureAndAlgorithm/Fibonacci.dart";
 
 import "EnumConstant/EnumConstant.dart";
-import "Types/Records.dart";
 
 class Student<T> {
   T value;
 
   Student(this.value);
+}
+
+class Users {
+  String name;
+  int age;
+
+  Users(this.name, this.age);
 }
 
 void main() {
@@ -24,5 +30,28 @@ void main() {
   // Record = Tuple
   ({int R, int G, int B}) colorTheme = (R: 255, G: 0, B: 0);
   print(colorTheme);
-  print(colorTheme);
+
+  ({String name, int age}) getUserInfo(Map<String, dynamic> json) {
+    return (name: json['name'], age: json['age']);
+  }
+
+  final json = {'name': 'Xyrel', 'age': 18};
+  final (:name, :age) = getUserInfo(json);
+  print("Name $name Age $age");
+
+  //Set
+  // Ignore the Duplicate Value
+  Set<int> numbers = {1, 2, 3, 3};
+  print(numbers);
+
+  //List
+  List<Users> users = [Users("Xyrel", 18)];
+
+  print(users[0].name);
+  print(users[0].age);
+
+  while (users.length != 0) {
+    print(users[0].age);
+    break;
+  }
 }
