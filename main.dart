@@ -19,4 +19,8 @@ void main() {
 
   print(Fibonacci(10));
   print("Hello World");
+
+  ({int r, int g, int b}) namedColor = (r: 255, g: 0, b: 0);
+
+  print(namedColor);
 }
